@@ -19,3 +19,12 @@ void CreateNewArray(string[] array, string [] array2)
     }
     
 }
+
+void FinalTask()
+{
+string [] array = {"Hello","2","world",")","-4","cat","dog","print"};
+string[] array2 = new string[array.Length];
+CreateNewArray(array, array2);
+PrintArray(array2);
+}
+FinalTask();
